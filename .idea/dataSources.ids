@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails QuickBookSync: development" uuid="410ec67c-f051-4c70-90e4-e8cc686807d6">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails QuickBookSync: test" uuid="d16e67c8-1509-414b-ba15-37e1043a3271">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails QuickBookSync: production" uuid="2c98551c-2867-44cc-818d-7337f969231f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

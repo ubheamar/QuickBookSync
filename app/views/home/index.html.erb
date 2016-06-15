@@ -1,0 +1,32 @@
+<style type="text/css">
+  .button {
+    background-color: #008CBA; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    border: 1px solid green;
+    cursor: pointer;
+  }
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+</style>
+<script type="text/javascript" src="https://appcenter.intuit.com/Content/IA/intuit.ipp.anywhere.js"></script>
+<script>
+  intuit.ipp.anywhere.setup({menuProxy: '/path/to/blue-dot', grantUrl: '<%=root_url()%><%=url_for(:controller=>'home',:action=>'authenticate') %>'});
+</script>
+<ipp:connectToIntuit></ipp:connectToIntuit>
+
+<%=link_to "Sync All Budget", { controller: "budget",action:"index", type:"budget",mode:"all" }, id: "budget", class: "button",:target => '_blank'%>
+<%=link_to "Sync All Bill", { controller: "transaction",action:"index", type:"bill",mode:"all"  }, id: "bill", class: "button",:target => '_blank'%>
+<%=link_to "Sync All Journal Entry", { controller: "transaction",action:"index", type:"journalentry",mode:"all"  }, id: "bill", class: "button",:target => '_blank'%>
+<%=link_to "Sync All Expense", { controller: "transaction",action:"index", type:"expense",mode:"all"  }, id: "expense", class: "button",:target => '_blank'%>

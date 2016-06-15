@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f853adb5-e91a-44d4-a35e-cfeedd80ace5" name="http://budglet.com/demo/quickbooks/ " url="http://us23.siteground.us">
+        <fileTransfer host="us23.siteground.us" port="21" password="dfdadf8bdfecdff2dffddfdddff8df9cdfcddf9ddfe1dffa" username="quickbooks@budglet.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

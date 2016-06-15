@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  txn_type: MyString
+  txn_date: 2016-06-08 15:16:27
+  klass: MyString
+  dept: MyString
+  account_name: MyString
+  vendor_name: MyString
+  desc: MyString
+  amount: 9.99
+
+two:
+  txn_type: MyString
+  txn_date: 2016-06-08 15:16:27
+  klass: MyString
+  dept: MyString
+  account_name: MyString
+  vendor_name: MyString
+  desc: MyString
+  amount: 9.99
